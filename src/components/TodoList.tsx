@@ -86,7 +86,7 @@ const TodoList = () => {
       <div className="text-center mb-8 animate-slide-down">
         <div className="inline-flex items-center gap-2 mb-2">
           <Sparkles className="w-8 h-8 text-primary animate-pulse" />
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-primary via-pastel-purple to-primary-glow bg-clip-text text-transparent">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-700 via-purple-600 to-purple-700 bg-clip-text text-transparent">
             Todo List
           </h1>
           <Sparkles className="w-8 h-8 text-primary animate-pulse" />
