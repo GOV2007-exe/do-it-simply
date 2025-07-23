@@ -8,42 +8,57 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 10% 98%;
-    --foreground: 240 10% 9%;
+    --background: 330 100% 98%;
+    --foreground: 340 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 9%;
+    --card-foreground: 340 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 9%;
+    --popover-foreground: 340 15% 15%;
 
-    --primary: 262 83% 58%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 262 83% 70%;
+    --primary: 280 100% 85%;
+    --primary-foreground: 340 15% 15%;
+    --primary-glow: 290 100% 90%;
 
-    --secondary: 240 5% 96%;
-    --secondary-foreground: 240 6% 10%;
+    --secondary: 320 50% 95%;
+    --secondary-foreground: 340 15% 15%;
 
-    --muted: 240 5% 96%;
-    --muted-foreground: 240 4% 46%;
+    --muted: 310 30% 96%;
+    --muted-foreground: 340 10% 50%;
 
-    --accent: 262 50% 95%;
-    --accent-foreground: 262 83% 58%;
+    --accent: 200 100% 90%;
+    --accent-foreground: 340 15% 15%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 100% 85%;
+    --destructive-foreground: 340 15% 15%;
 
-    --border: 240 6% 90%;
-    --input: 240 6% 90%;
-    --ring: 262 83% 58%;
+    --border: 320 30% 90%;
+    --input: 320 30% 90%;
+    --ring: 280 100% 85%;
 
-    --success: 142 76% 36%;
-    --success-foreground: 0 0% 98%;
+    --success: 120 60% 80%;
+    --success-foreground: 340 15% 15%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(262 83% 70%));
-    --gradient-subtle: linear-gradient(180deg, hsl(240 10% 98%), hsl(240 5% 96%));
-    --shadow-elegant: 0 10px 30px -10px hsl(262 83% 58% / 0.3);
-    --shadow-soft: 0 4px 20px -4px hsl(240 10% 9% / 0.1);
+    /* Pastel color palette */
+    --pastel-pink: 330 100% 90%;
+    --pastel-purple: 280 100% 90%;
+    --pastel-blue: 200 100% 90%;
+    --pastel-green: 120 60% 85%;
+    --pastel-yellow: 60 100% 90%;
+    --pastel-orange: 30 100% 90%;
+
+    /* Glassmorphism effects */
+    --glass-bg: 0 0% 100% / 0.7;
+    --glass-border: 0 0% 100% / 0.2;
+    --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    --glass-backdrop: blur(8px);
+
+    --gradient-primary: linear-gradient(135deg, hsl(280 100% 85%), hsl(290 100% 90%));
+    --gradient-glass: linear-gradient(135deg, hsl(0 0% 100% / 0.1), hsl(0 0% 100% / 0.05));
+    --gradient-completion: linear-gradient(90deg, hsl(120 60% 80%), hsl(200 100% 90%));
+    --shadow-glass: 0 8px 32px 0 rgba(200, 150, 255, 0.2);
+    --shadow-soft: 0 4px 20px -4px hsl(280 100% 85% / 0.3);
 
     --radius: 0.5rem;
 
